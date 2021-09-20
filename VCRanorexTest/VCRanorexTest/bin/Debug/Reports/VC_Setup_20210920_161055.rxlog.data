@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="2.7s"
+		durationms="2704"
+		type="root"
+		rid="fbaffe1375de93"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="maylward"
+		rxversion="9.3.2.0"
+		host="OLA-17HH7X2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="9/20/2021 4:10:57 PM"
+		timestampiso="2021-09-20T21:10:57"
+		endtime="9/20/2021 4:11:00 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VC_Setup">
+		<detail>
+			VC_Setup
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.674"
+			timeRelativeToTestModuleStartTime="00:02.674"
+			timeWallClock="16:11:00"
+			time="00:02.674"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files\MAGNET Field PC\mf.exe' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\VC_Setup.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

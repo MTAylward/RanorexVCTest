@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="14.58s"
+		durationms="14579"
+		type="root"
+		rid="1d0658ddb7c406e4"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="maylward"
+		rxversion="9.3.2.0"
+		host="OLA-17HH7X2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="9/20/2021 4:16:35 PM"
+		timestampiso="2021-09-20T21:16:35"
+		endtime="9/20/2021 4:16:50 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VC_Teardown">
+		<detail>
+			VC_Teardown
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.635"
+			timeRelativeToTestModuleStartTime="00:02.635"
+			timeWallClock="16:16:38"
+			time="00:02.635"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\VC_Teardown.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.647"
+			timeRelativeToTestModuleStartTime="00:07.647"
+			timeWallClock="16:16:43"
+			time="00:07.647"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files\MAGNET Field PC\mf.exe' in normal mode.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\VC_Teardown.cs"
+				codeline="85"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.667"
+			timeRelativeToTestModuleStartTime="00:07.667"
+			timeWallClock="16:16:43"
+			time="00:07.667"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'VersionControlTest.MainMenuSelection' at 93;147.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='VersionControlTest']/element[@controlid='1000']"
+				itempath="element[@controlid='1000']"
+				fullname="VCRanorexTestRepository.VersionControlTest.MainMenuSelection"
+				id="50c54255095a48ac9dad5281197783b2"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\VC_Teardown.cs"
+				codeline="89"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.629"
+			timeRelativeToTestModuleStartTime="00:09.629"
+			timeWallClock="16:16:45"
+			time="00:09.629"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'VersionControlTest.SecondaryMenuSelection' at 259;139.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='VersionControlTest']/?/?/element[@controlid='1000']"
+				itempath="?/?/element[@controlid='1000']"
+				fullname="VCRanorexTestRepository.VersionControlTest.SecondaryMenuSelection"
+				id="93d152f9addd425ca893be8132837400"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\VC_Teardown.cs"
+				codeline="93"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.060"
+			timeRelativeToTestModuleStartTime="00:10.060"
+			timeWallClock="16:16:46"
+			time="00:10.060"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'OpenJob.Default' at 89;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open Job']/?/?/row[@index='0']/cell[@text='Default']"
+				itempath="?/?/row[@index='0']/cell[@text='Default']"
+				fullname="VCRanorexTestRepository.OpenJob.Default"
+				id="69a5e4a5b68a475b8f37502002548b79"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\VC_Teardown.cs"
+				codeline="97"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.994"
+			timeRelativeToTestModuleStartTime="00:10.994"
+			timeWallClock="16:16:46"
+			time="00:10.994"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'OpenJob.AcceptChanges' at 36;30.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open Job']/button[@controlid='41830']"
+				itempath="button[@controlid='41830']"
+				fullname="VCRanorexTestRepository.OpenJob.AcceptChanges"
+				id="476760b801a344c8bfdb167d4d222b88"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\VC_Teardown.cs"
+				codeline="101"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.396"
+			timeRelativeToTestModuleStartTime="00:11.396"
+			timeWallClock="16:16:47"
+			time="00:11.396"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\VC_Teardown.cs"
+				codeline="105"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.398"
+			timeRelativeToTestModuleStartTime="00:13.398"
+			timeWallClock="16:16:49"
+			time="00:13.398"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'Default'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Default']"
+				itempath="/form[@title='Default']"
+				fullname="VCRanorexTestRepository.Default.Self"
+				id="66a5106066104afc946a8e78a3848799"
+				timeout="30000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\VC_Teardown.cs"
+				codeline="108"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

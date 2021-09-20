@@ -1,0 +1,10 @@
+C:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\obj\x86\Debug\VCRanorexTest.csprojResolveAssemblyReference.cache
+C:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\bin\Debug\VCRanorexTest.rxtmg
+C:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\bin\Debug\VCRanorexTest.rxtst
+C:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\bin\Debug\VCRanorexTest.exe.config
+C:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\bin\Debug\VCRanorexTest.xml
+C:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\bin\Debug\VCRanorexTest.exe
+C:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\bin\Debug\VCRanorexTest.pdb
+C:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\obj\x86\Debug\VCRanorexTest.exe
+C:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\obj\x86\Debug\VCRanorexTest.pdb

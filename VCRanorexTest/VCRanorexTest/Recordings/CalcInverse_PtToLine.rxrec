@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="71d6d305-72c7-445d-842c-9dbafc80415f"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CalcInverse_PtToLine"
+	namespace="VCRanorexTest.Recordings">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="f92b2491-2142-4278-9856-8c3badf62c83"
+	name="VCRanorexTestRepository"
+	relativepath="..\VCRanorexTestRepository.rxrep">
+		<codegen
+		classname="VCRanorexTestRepository"
+		namespace="VCRanorexTest">
+		</codegen>
+		<rootfolder
+		id="85d57d4d-d425-4645-85a5-4a218340d059"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		PtToLine.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

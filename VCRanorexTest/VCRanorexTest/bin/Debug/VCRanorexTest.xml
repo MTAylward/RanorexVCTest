@@ -1,0 +1,856 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VCRanorexTest</name>
+    </assembly>
+    <members>
+        <member name="T:VCRanorexTest.Recordings.AddLine">
+             <summary>
+            The AddLine recording.
+             </summary>
+        </member>
+        <member name="F:VCRanorexTest.Recordings.AddLine.repo">
+            <summary>
+            Holds an instance of the global::VCRanorexTest.VCRanorexTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.AddLine.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.AddLine.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:VCRanorexTest.Recordings.AddLine.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.AddLine.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.AddLine.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.Recordings.AddLine.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:VCRanorexTest.Recordings.AddPoints">
+             <summary>
+            The AddPoints recording.
+             </summary>
+        </member>
+        <member name="F:VCRanorexTest.Recordings.AddPoints.repo">
+            <summary>
+            Holds an instance of the global::VCRanorexTest.VCRanorexTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.AddPoints.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.AddPoints.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:VCRanorexTest.Recordings.AddPoints.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.AddPoints.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.AddPoints.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.Recordings.AddPoints.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:VCRanorexTest.Recordings.CalcInverse_PtToLine">
+             <summary>
+            The CalcInverse_PtToLine recording.
+             </summary>
+        </member>
+        <member name="F:VCRanorexTest.Recordings.CalcInverse_PtToLine.repo">
+            <summary>
+            Holds an instance of the global::VCRanorexTest.VCRanorexTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.CalcInverse_PtToLine.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.CalcInverse_PtToLine.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:VCRanorexTest.Recordings.CalcInverse_PtToLine.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.CalcInverse_PtToLine.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.CalcInverse_PtToLine.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.Recordings.CalcInverse_PtToLine.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:VCRanorexTest.Recordings.CalcInverse_PtToPt">
+             <summary>
+            The CalcInverse_PtToPt recording.
+             </summary>
+        </member>
+        <member name="F:VCRanorexTest.Recordings.CalcInverse_PtToPt.repo">
+            <summary>
+            Holds an instance of the global::VCRanorexTest.VCRanorexTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.CalcInverse_PtToPt.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.CalcInverse_PtToPt.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:VCRanorexTest.Recordings.CalcInverse_PtToPt.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.CalcInverse_PtToPt.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.CalcInverse_PtToPt.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.Recordings.CalcInverse_PtToPt.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:VCRanorexTest.Recordings.VC_Setup">
+             <summary>
+            The VC_Setup recording.
+             </summary>
+        </member>
+        <member name="F:VCRanorexTest.Recordings.VC_Setup.repo">
+            <summary>
+            Holds an instance of the global::VCRanorexTest.VCRanorexTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.VC_Setup.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.VC_Setup.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:VCRanorexTest.Recordings.VC_Setup.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.VC_Setup.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.VC_Setup.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.Recordings.VC_Setup.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:VCRanorexTest.Recordings.VC_Teardown">
+             <summary>
+            The VC_Teardown recording.
+             </summary>
+        </member>
+        <member name="F:VCRanorexTest.Recordings.VC_Teardown.repo">
+            <summary>
+            Holds an instance of the global::VCRanorexTest.VCRanorexTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.VC_Teardown.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.VC_Teardown.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:VCRanorexTest.Recordings.VC_Teardown.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.VC_Teardown.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:VCRanorexTest.Recordings.VC_Teardown.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.Recordings.VC_Teardown.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:VCRanorexTest.VCRanorexTestRepository">
+            <summary>
+            The class representing the VCRanorexTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.VCRanorexTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the VCRanorexTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepository.Default">
+            <summary>
+            The Default folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepository.OpenJob">
+            <summary>
+            The OpenJob folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepository.VersionControlTest">
+            <summary>
+            The VersionControlTest folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepository.PointsGrid">
+            <summary>
+            The PointsGrid folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepository.AddPoint">
+            <summary>
+            The AddPoint folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepository.Linework">
+            <summary>
+            The Linework folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepository.AddLine">
+            <summary>
+            The AddLine folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepository.ContextMenuMf">
+            <summary>
+            The ContextMenuMf folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepository.FormMap">
+            <summary>
+            The FormMap folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepository.Warning">
+            <summary>
+            The Warning folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepository.Delete">
+            <summary>
+            The Delete folder.
+            </summary>
+        </member>
+        <member name="T:VCRanorexTest.VCRanorexTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:VCRanorexTest.VCRanorexTestRepositoryFolders.DefaultAppFolder">
+            <summary>
+            The DefaultAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.VCRanorexTestRepositoryFolders.DefaultAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Default  folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.DefaultAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.DefaultAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.DefaultAppFolder.MainMenuSelection">
+            <summary>
+            The MainMenuSelection item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.DefaultAppFolder.MainMenuSelectionInfo">
+            <summary>
+            The MainMenuSelection item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.DefaultAppFolder.SecondaryMenuSelection">
+            <summary>
+            The SecondaryMenuSelection item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.DefaultAppFolder.SecondaryMenuSelectionInfo">
+            <summary>
+            The SecondaryMenuSelection item info.
+            </summary>
+        </member>
+        <member name="T:VCRanorexTest.VCRanorexTestRepositoryFolders.OpenJobAppFolder">
+            <summary>
+            The OpenJobAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.VCRanorexTestRepositoryFolders.OpenJobAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new OpenJob  folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.OpenJobAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.OpenJobAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.OpenJobAppFolder.VersionControlTest">
+            <summary>
+            The VersionControlTest item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.OpenJobAppFolder.VersionControlTestInfo">
+            <summary>
+            The VersionControlTest item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.OpenJobAppFolder.AcceptChanges">
+            <summary>
+            The AcceptChanges item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.OpenJobAppFolder.AcceptChangesInfo">
+            <summary>
+            The AcceptChanges item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.OpenJobAppFolder.Default">
+            <summary>
+            The Default item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.OpenJobAppFolder.DefaultInfo">
+            <summary>
+            The Default item info.
+            </summary>
+        </member>
+        <member name="T:VCRanorexTest.VCRanorexTestRepositoryFolders.VersionControlTestAppFolder">
+            <summary>
+            The VersionControlTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.VCRanorexTestRepositoryFolders.VersionControlTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new VersionControlTest  folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.VersionControlTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.VersionControlTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.VersionControlTestAppFolder.MainMenuSelection">
+            <summary>
+            The MainMenuSelection item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.VersionControlTestAppFolder.MainMenuSelectionInfo">
+            <summary>
+            The MainMenuSelection item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.VersionControlTestAppFolder.SecondaryMenuSelection">
+            <summary>
+            The SecondaryMenuSelection item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.VersionControlTestAppFolder.SecondaryMenuSelectionInfo">
+            <summary>
+            The SecondaryMenuSelection item info.
+            </summary>
+        </member>
+        <member name="T:VCRanorexTest.VCRanorexTestRepositoryFolders.PointsGridAppFolder">
+            <summary>
+            The PointsGridAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.VCRanorexTestRepositoryFolders.PointsGridAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PointsGrid  folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.PointsGridAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.PointsGridAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.PointsGridAppFolder.Add">
+            <summary>
+            The Add item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.PointsGridAppFolder.AddInfo">
+            <summary>
+            The Add item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.PointsGridAppFolder.Home">
+            <summary>
+            The Home item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.PointsGridAppFolder.HomeInfo">
+            <summary>
+            The Home item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.PointsGridAppFolder.Cell1">
+            <summary>
+            The Cell1 item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.PointsGridAppFolder.Cell1Info">
+            <summary>
+            The Cell1 item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.PointsGridAppFolder.Cell5">
+            <summary>
+            The Cell5 item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.PointsGridAppFolder.Cell5Info">
+            <summary>
+            The Cell5 item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.PointsGridAppFolder.Delete">
+            <summary>
+            The Delete item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.PointsGridAppFolder.DeleteInfo">
+            <summary>
+            The Delete item info.
+            </summary>
+        </member>
+        <member name="T:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder">
+            <summary>
+            The AddPointAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AddPoint  folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.Text20910">
+            <summary>
+            The Text20910 item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.Text20910Info">
+            <summary>
+            The Text20910 item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.Button">
+            <summary>
+            The Button item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.ButtonInfo">
+            <summary>
+            The Button item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.Text20655">
+            <summary>
+            The Text20655 item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.Text20655Info">
+            <summary>
+            The Text20655 item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.Text20837">
+            <summary>
+            The Text20837 item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.Text20837Info">
+            <summary>
+            The Text20837 item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.Text20726">
+            <summary>
+            The Text20726 item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.Text20726Info">
+            <summary>
+            The Text20726 item info.
+            </summary>
+        </member>
+        <member name="T:VCRanorexTest.VCRanorexTestRepositoryFolders.LineworkAppFolder">
+            <summary>
+            The LineworkAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.VCRanorexTestRepositoryFolders.LineworkAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Linework  folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.LineworkAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.LineworkAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.LineworkAppFolder.Add">
+            <summary>
+            The Add item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.LineworkAppFolder.AddInfo">
+            <summary>
+            The Add item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.LineworkAppFolder.Home">
+            <summary>
+            The Home item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.LineworkAppFolder.HomeInfo">
+            <summary>
+            The Home item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.LineworkAppFolder.Line1">
+            <summary>
+            The Line1 item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.LineworkAppFolder.Line1Info">
+            <summary>
+            The Line1 item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.LineworkAppFolder.Delete">
+            <summary>
+            The Delete item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.LineworkAppFolder.DeleteInfo">
+            <summary>
+            The Delete item info.
+            </summary>
+        </member>
+        <member name="T:VCRanorexTest.VCRanorexTestRepositoryFolders.AddLineAppFolder">
+            <summary>
+            The AddLineAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.VCRanorexTestRepositoryFolders.AddLineAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AddLine  folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddLineAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddLineAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddLineAppFolder.AddPoints">
+            <summary>
+            The AddPoints item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddLineAppFolder.AddPointsInfo">
+            <summary>
+            The AddPoints item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddLineAppFolder.Button">
+            <summary>
+            The Button item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddLineAppFolder.ButtonInfo">
+            <summary>
+            The Button item info.
+            </summary>
+        </member>
+        <member name="T:VCRanorexTest.VCRanorexTestRepositoryFolders.ContextMenuMfAppFolder">
+            <summary>
+            The ContextMenuMfAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.VCRanorexTestRepositoryFolders.ContextMenuMfAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ContextMenuMf  folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.ContextMenuMfAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.ContextMenuMfAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.ContextMenuMfAppFolder.MenuItem">
+            <summary>
+            The MenuItem item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.ContextMenuMfAppFolder.MenuItemInfo">
+            <summary>
+            The MenuItem item info.
+            </summary>
+        </member>
+        <member name="T:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder">
+            <summary>
+            The FormMapAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FormMap  folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.Button">
+            <summary>
+            The Button item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.ButtonInfo">
+            <summary>
+            The Button item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.Button1">
+            <summary>
+            The Button1 item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.Button1Info">
+            <summary>
+            The Button1 item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.Element20063">
+            <summary>
+            The Element20063 item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.Element20063Info">
+            <summary>
+            The Element20063 item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.Button2">
+            <summary>
+            The Button2 item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.Button2Info">
+            <summary>
+            The Button2 item info.
+            </summary>
+        </member>
+        <member name="T:VCRanorexTest.VCRanorexTestRepositoryFolders.WarningAppFolder">
+            <summary>
+            The WarningAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.VCRanorexTestRepositoryFolders.WarningAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Warning  folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.WarningAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.WarningAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.WarningAppFolder.Yes">
+            <summary>
+            The Yes item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.WarningAppFolder.YesInfo">
+            <summary>
+            The Yes item info.
+            </summary>
+        </member>
+        <member name="T:VCRanorexTest.VCRanorexTestRepositoryFolders.DeleteAppFolder">
+            <summary>
+            The DeleteAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:VCRanorexTest.VCRanorexTestRepositoryFolders.DeleteAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Delete  folder.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.DeleteAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.DeleteAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.DeleteAppFolder.Yes">
+            <summary>
+            The Yes item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.DeleteAppFolder.YesInfo">
+            <summary>
+            The Yes item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

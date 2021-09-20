@@ -1,0 +1,12 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution VCRanorexTest[VCRanorexTest[Recordings[]VCRanorexTestRepository.rxrep[]]]]&#xD;&#xA;Solution VCRanorexTest\VCRanorexTest\VCRanorexTest.rxtst&#xD;&#xA;Solution VCRanorexTest\VCRanorexTest\bin" />
+  <StartupProject value="{AE28D51C-649C-49B6-91C5-620F5534E10C}" />
+</Properties>

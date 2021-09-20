@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="22.79s"
+		durationms="22794"
+		type="root"
+		rid="3283a2415136bf64"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="maylward"
+		rxversion="9.3.2.0"
+		host="OLA-17HH7X2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="9/20/2021 4:15:53 PM"
+		timestampiso="2021-09-20T21:15:53"
+		endtime="9/20/2021 4:16:16 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="VC_Teardown">
+		<detail>
+			VC_Teardown
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.627"
+			timeRelativeToTestModuleStartTime="00:02.627"
+			timeWallClock="16:15:56"
+			time="00:02.627"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\VC_Teardown.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.643"
+			timeRelativeToTestModuleStartTime="00:04.643"
+			timeWallClock="16:15:58"
+			time="00:04.643"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'VersionControlTest'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='VersionControlTest']"
+				itempath="/form[@title='VersionControlTest']"
+				fullname="VCRanorexTestRepository.VersionControlTest.Self"
+				id="7f8a66c901cd4acebe2328147320b3d9"
+				timeout="30000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\VC_Teardown.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.468"
+			timeRelativeToTestModuleStartTime="00:06.468"
+			timeWallClock="16:15:59"
+			time="00:06.468"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\VC_Teardown.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.477"
+			timeRelativeToTestModuleStartTime="00:08.477"
+			timeWallClock="16:16:01"
+			time="00:08.477"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files\MAGNET Field PC\mf.exe' in normal mode.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\VC_Teardown.cs"
+				codeline="92"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.497"
+			timeRelativeToTestModuleStartTime="00:08.497"
+			timeWallClock="16:16:01"
+			time="00:08.497"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'VersionControlTest.MainMenuSelection' at 93;147.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='VersionControlTest']/element[@controlid='1000']"
+				itempath="element[@controlid='1000']"
+				fullname="VCRanorexTestRepository.VersionControlTest.MainMenuSelection"
+				id="50c54255095a48ac9dad5281197783b2"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\VC_Teardown.cs"
+				codeline="96"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.792"
+			timeRelativeToTestModuleStartTime="00:22.792"
+			timeWallClock="16:16:16"
+			time="00:22.792"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
