@@ -378,16 +378,6 @@
             The Self item info.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.OpenJobAppFolder.VersionControlTest">
-            <summary>
-            The VersionControlTest item.
-            </summary>
-        </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.OpenJobAppFolder.VersionControlTestInfo">
-            <summary>
-            The VersionControlTest item info.
-            </summary>
-        </member>
         <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.OpenJobAppFolder.AcceptChanges">
             <summary>
             The AcceptChanges item.
@@ -406,6 +396,16 @@
         <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.OpenJobAppFolder.DefaultInfo">
             <summary>
             The Default item info.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.OpenJobAppFolder.VersionControlTest">
+            <summary>
+            The VersionControlTest item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.OpenJobAppFolder.VersionControlTestInfo">
+            <summary>
+            The VersionControlTest item info.
             </summary>
         </member>
         <member name="T:VCRanorexTest.VCRanorexTestRepositoryFolders.VersionControlTestAppFolder">
@@ -468,16 +468,6 @@
             The Self item info.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.PointsGridAppFolder.Add">
-            <summary>
-            The Add item.
-            </summary>
-        </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.PointsGridAppFolder.AddInfo">
-            <summary>
-            The Add item info.
-            </summary>
-        </member>
         <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.PointsGridAppFolder.Home">
             <summary>
             The Home item.
@@ -518,6 +508,16 @@
             The Delete item info.
             </summary>
         </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.PointsGridAppFolder.Add">
+            <summary>
+            The Add item.
+            </summary>
+        </member>
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.PointsGridAppFolder.AddInfo">
+            <summary>
+            The Add item info.
+            </summary>
+        </member>
         <member name="T:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder">
             <summary>
             The AddPointAppFolder folder.
@@ -538,54 +538,54 @@
             The Self item info.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.Text20910">
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.PointName">
             <summary>
-            The Text20910 item.
+            The PointName item.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.Text20910Info">
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.PointNameInfo">
             <summary>
-            The Text20910 item info.
+            The PointName item info.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.Button">
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.AcceptChanges">
             <summary>
-            The Button item.
+            The AcceptChanges item.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.ButtonInfo">
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.AcceptChangesInfo">
             <summary>
-            The Button item info.
+            The AcceptChanges item info.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.Text20655">
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.NorthValue">
             <summary>
-            The Text20655 item.
+            The NorthValue item.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.Text20655Info">
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.NorthValueInfo">
             <summary>
-            The Text20655 item info.
+            The NorthValue item info.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.Text20837">
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.EastValue">
             <summary>
-            The Text20837 item.
+            The EastValue item.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.Text20837Info">
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.EastValueInfo">
             <summary>
-            The Text20837 item info.
+            The EastValue item info.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.Text20726">
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.EllipsoidalHt">
             <summary>
-            The Text20726 item.
+            The EllipsoidalHt item.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.Text20726Info">
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.EllipsoidalHtInfo">
             <summary>
-            The Text20726 item info.
+            The EllipsoidalHt item info.
             </summary>
         </member>
         <member name="T:VCRanorexTest.VCRanorexTestRepositoryFolders.LineworkAppFolder">
@@ -678,14 +678,14 @@
             The AddPoints item info.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddLineAppFolder.Button">
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddLineAppFolder.AcceptChanges">
             <summary>
-            The Button item.
+            The AcceptChanges item.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddLineAppFolder.ButtonInfo">
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.AddLineAppFolder.AcceptChangesInfo">
             <summary>
-            The Button item info.
+            The AcceptChanges item info.
             </summary>
         </member>
         <member name="T:VCRanorexTest.VCRanorexTestRepositoryFolders.ContextMenuMfAppFolder">
@@ -738,44 +738,44 @@
             The Self item info.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.Button">
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.ExpandCollapseToolbar">
             <summary>
-            The Button item.
+            The ExpandCollapseToolbar item.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.ButtonInfo">
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.ExpandCollapseToolbarInfo">
             <summary>
-            The Button item info.
+            The ExpandCollapseToolbar item info.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.Button1">
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.ZoomAll">
             <summary>
-            The Button1 item.
+            The ZoomAll item.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.Button1Info">
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.ZoomAllInfo">
             <summary>
-            The Button1 item info.
+            The ZoomAll item info.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.Element20063">
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.MapPoint">
             <summary>
-            The Element20063 item.
+            The MapPoint item.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.Element20063Info">
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.MapPointInfo">
             <summary>
-            The Element20063 item info.
+            The MapPoint item info.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.Button2">
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.AcceptChanges">
             <summary>
-            The Button2 item.
+            The AcceptChanges item.
             </summary>
         </member>
-        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.Button2Info">
+        <member name="P:VCRanorexTest.VCRanorexTestRepositoryFolders.FormMapAppFolder.AcceptChangesInfo">
             <summary>
-            The Button2 item info.
+            The AcceptChanges item info.
             </summary>
         </member>
         <member name="T:VCRanorexTest.VCRanorexTestRepositoryFolders.WarningAppFolder">

@@ -87,100 +87,100 @@ namespace VCRanorexTest.Recordings
             repo.VersionControlTest.SecondaryMenuSelection.Click("95;144");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'PointsGrid.Add' at 47;31.", repo.PointsGrid.AddInfo, new RecordItemIndex(2));
-            repo.PointsGrid.Add.Click("47;31");
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Press() on item 'PointsGrid.Add'.", repo.PointsGrid.AddInfo, new RecordItemIndex(2));
+            repo.PointsGrid.Add.Press();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'AddPoint.Text20910' at 203;27.", repo.AddPoint.Text20910Info, new RecordItemIndex(3));
-            repo.AddPoint.Text20910.DoubleClick("203;27");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'AddPoint.PointName' at 203;27.", repo.AddPoint.PointNameInfo, new RecordItemIndex(3));
+            repo.AddPoint.PointName.DoubleClick("203;27");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '1' with focus on 'AddPoint.Text20910'.", repo.AddPoint.Text20910Info, new RecordItemIndex(4));
-            repo.AddPoint.Text20910.PressKeys("1");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '1' with focus on 'AddPoint.PointName'.", repo.AddPoint.PointNameInfo, new RecordItemIndex(4));
+            repo.AddPoint.PointName.PressKeys("1");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddPoint.Button' at 33;28.", repo.AddPoint.ButtonInfo, new RecordItemIndex(5));
-            repo.AddPoint.Button.Click("33;28");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddPoint.AcceptChanges' at 33;28.", repo.AddPoint.AcceptChangesInfo, new RecordItemIndex(5));
+            repo.AddPoint.AcceptChanges.Click("33;28");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'PointsGrid.Add' at 40;30.", repo.PointsGrid.AddInfo, new RecordItemIndex(6));
-            repo.PointsGrid.Add.Click("40;30");
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Press() on item 'PointsGrid.Add'.", repo.PointsGrid.AddInfo, new RecordItemIndex(6));
+            repo.PointsGrid.Add.Press();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'AddPoint.Text20655' at 112;20.", repo.AddPoint.Text20655Info, new RecordItemIndex(7));
-            repo.AddPoint.Text20655.DoubleClick("112;20");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'AddPoint.NorthValue' at 112;20.", repo.AddPoint.NorthValueInfo, new RecordItemIndex(7));
+            repo.AddPoint.NorthValue.DoubleClick("112;20");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '-100' with focus on 'AddPoint.Text20655'.", repo.AddPoint.Text20655Info, new RecordItemIndex(8));
-            repo.AddPoint.Text20655.PressKeys("-100");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '-100' with focus on 'AddPoint.NorthValue'.", repo.AddPoint.NorthValueInfo, new RecordItemIndex(8));
+            repo.AddPoint.NorthValue.PressKeys("-100");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'AddPoint.Text20837' at 101;19.", repo.AddPoint.Text20837Info, new RecordItemIndex(9));
-            repo.AddPoint.Text20837.DoubleClick("101;19");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'AddPoint.EastValue' at 101;19.", repo.AddPoint.EastValueInfo, new RecordItemIndex(9));
+            repo.AddPoint.EastValue.DoubleClick("101;19");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '-100' with focus on 'AddPoint.Text20837'.", repo.AddPoint.Text20837Info, new RecordItemIndex(10));
-            repo.AddPoint.Text20837.PressKeys("-100");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '-100' with focus on 'AddPoint.EastValue'.", repo.AddPoint.EastValueInfo, new RecordItemIndex(10));
+            repo.AddPoint.EastValue.PressKeys("-100");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddPoint.Text20726' at 143;23.", repo.AddPoint.Text20726Info, new RecordItemIndex(11));
-            repo.AddPoint.Text20726.Click("143;23");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddPoint.EllipsoidalHt' at 143;23.", repo.AddPoint.EllipsoidalHtInfo, new RecordItemIndex(11));
+            repo.AddPoint.EllipsoidalHt.Click("143;23");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddPoint.Button' at 31;22.", repo.AddPoint.ButtonInfo, new RecordItemIndex(12));
-            repo.AddPoint.Button.Click("31;22");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddPoint.AcceptChanges' at 31;22.", repo.AddPoint.AcceptChangesInfo, new RecordItemIndex(12));
+            repo.AddPoint.AcceptChanges.Click("31;22");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'PointsGrid.Add' at 35;33.", repo.PointsGrid.AddInfo, new RecordItemIndex(13));
-            repo.PointsGrid.Add.Click("35;33");
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Press() on item 'PointsGrid.Add'.", repo.PointsGrid.AddInfo, new RecordItemIndex(13));
+            repo.PointsGrid.Add.Press();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'AddPoint.Text20655' at 169;22.", repo.AddPoint.Text20655Info, new RecordItemIndex(14));
-            repo.AddPoint.Text20655.DoubleClick("169;22");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'AddPoint.NorthValue' at 169;22.", repo.AddPoint.NorthValueInfo, new RecordItemIndex(14));
+            repo.AddPoint.NorthValue.DoubleClick("169;22");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}{Back}100' with focus on 'AddPoint.Text20655'.", repo.AddPoint.Text20655Info, new RecordItemIndex(15));
-            repo.AddPoint.Text20655.PressKeys("{Back}{Back}100");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}{Back}100' with focus on 'AddPoint.NorthValue'.", repo.AddPoint.NorthValueInfo, new RecordItemIndex(15));
+            repo.AddPoint.NorthValue.PressKeys("{Back}{Back}100");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddPoint.Button' at 31;27.", repo.AddPoint.ButtonInfo, new RecordItemIndex(16));
-            repo.AddPoint.Button.Click("31;27");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddPoint.AcceptChanges' at 31;27.", repo.AddPoint.AcceptChangesInfo, new RecordItemIndex(16));
+            repo.AddPoint.AcceptChanges.Click("31;27");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'PointsGrid.Add' at 41;38.", repo.PointsGrid.AddInfo, new RecordItemIndex(17));
-            repo.PointsGrid.Add.Click("41;38");
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Press() on item 'PointsGrid.Add'.", repo.PointsGrid.AddInfo, new RecordItemIndex(17));
+            repo.PointsGrid.Add.Press();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'AddPoint.Text20837' at 157;21.", repo.AddPoint.Text20837Info, new RecordItemIndex(18));
-            repo.AddPoint.Text20837.DoubleClick("157;21");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'AddPoint.EastValue' at 157;21.", repo.AddPoint.EastValueInfo, new RecordItemIndex(18));
+            repo.AddPoint.EastValue.DoubleClick("157;21");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}{Back}100' with focus on 'AddPoint.Text20837'.", repo.AddPoint.Text20837Info, new RecordItemIndex(19));
-            repo.AddPoint.Text20837.PressKeys("{Back}{Back}100");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}{Back}100' with focus on 'AddPoint.EastValue'.", repo.AddPoint.EastValueInfo, new RecordItemIndex(19));
+            repo.AddPoint.EastValue.PressKeys("{Back}{Back}100");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddPoint.Button' at 33;35.", repo.AddPoint.ButtonInfo, new RecordItemIndex(20));
-            repo.AddPoint.Button.Click("33;35");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddPoint.AcceptChanges' at 33;35.", repo.AddPoint.AcceptChangesInfo, new RecordItemIndex(20));
+            repo.AddPoint.AcceptChanges.Click("33;35");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'PointsGrid.Add' at 40;32.", repo.PointsGrid.AddInfo, new RecordItemIndex(21));
-            repo.PointsGrid.Add.Click("40;32");
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Press() on item 'PointsGrid.Add'.", repo.PointsGrid.AddInfo, new RecordItemIndex(21));
+            repo.PointsGrid.Add.Press();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'AddPoint.Text20655' at 172;24.", repo.AddPoint.Text20655Info, new RecordItemIndex(22));
-            repo.AddPoint.Text20655.DoubleClick("172;24");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'AddPoint.NorthValue' at 172;24.", repo.AddPoint.NorthValueInfo, new RecordItemIndex(22));
+            repo.AddPoint.NorthValue.DoubleClick("172;24");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}{Back}-100' with focus on 'AddPoint.Text20655'.", repo.AddPoint.Text20655Info, new RecordItemIndex(23));
-            repo.AddPoint.Text20655.PressKeys("{Back}{Back}-100");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}{Back}-100' with focus on 'AddPoint.NorthValue'.", repo.AddPoint.NorthValueInfo, new RecordItemIndex(23));
+            repo.AddPoint.NorthValue.PressKeys("{Back}{Back}-100");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddPoint.Button' at 18;23.", repo.AddPoint.ButtonInfo, new RecordItemIndex(24));
-            repo.AddPoint.Button.Click("18;23");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddPoint.AcceptChanges' at 18;23.", repo.AddPoint.AcceptChangesInfo, new RecordItemIndex(24));
+            repo.AddPoint.AcceptChanges.Click("18;23");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'PointsGrid.Home' at 36;33.", repo.PointsGrid.HomeInfo, new RecordItemIndex(25));
-            repo.PointsGrid.Home.Click("36;33");
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Press() on item 'PointsGrid.Home'.", repo.PointsGrid.HomeInfo, new RecordItemIndex(25));
+            repo.PointsGrid.Home.Press();
             Delay.Milliseconds(0);
             
         }

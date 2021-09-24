@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="13.83s"
+		durationms="13827"
+		type="root"
+		rid="154d97ccb16b0c1"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="maylward"
+		rxversion="9.3.2.0"
+		host="OLA-17HH7X2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="9/23/2021 9:11:16 AM"
+		timestampiso="2021-09-23T14:11:16"
+		endtime="9/23/2021 9:11:29 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AddPoints">
+		<detail>
+			AddPoints
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.683"
+			timeRelativeToTestModuleStartTime="00:02.683"
+			timeWallClock="09:11:18"
+			time="00:02.683"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PointsGrid.Add' at 47;31.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Points: Grid']/button[@text='Add']"
+				itempath="button[@text='Add']"
+				fullname="VCRanorexTestRepository.PointsGrid.Add"
+				id="ad163cf970e74ee294110c00b1c37968"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddPoints.cs"
+				codeline="82"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.780"
+			timeRelativeToTestModuleStartTime="00:04.780"
+			timeWallClock="09:11:20"
+			time="00:04.780"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'AddPoint.Text20910' at 203;27.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Point']/?/?/text[@controlid='20910']"
+				itempath="?/?/text[@controlid='20910']"
+				fullname="VCRanorexTestRepository.AddPoint.Text20910"
+				id="fcc7bbe6cef24aad8bcdbbd030d12b5b"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddPoints.cs"
+				codeline="86"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.694"
+			timeRelativeToTestModuleStartTime="00:05.694"
+			timeWallClock="09:11:21"
+			time="00:05.694"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '1' with focus on 'AddPoint.Text20910'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Point']/?/?/text[@controlid='20910']"
+				itempath="?/?/text[@controlid='20910']"
+				fullname="VCRanorexTestRepository.AddPoint.Text20910"
+				id="fcc7bbe6cef24aad8bcdbbd030d12b5b"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddPoints.cs"
+				codeline="90"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.936"
+			timeRelativeToTestModuleStartTime="00:05.936"
+			timeWallClock="09:11:21"
+			time="00:05.936"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AddPoint.Button' at 33;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Point']/button[@text='' and @controlid='1']"
+				itempath="button[@text='' and @controlid='1']"
+				fullname="VCRanorexTestRepository.AddPoint.Button"
+				id="622e5c67d3d04534b80d1c5e9c902fcf"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddPoints.cs"
+				codeline="94"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.462"
+			timeRelativeToTestModuleStartTime="00:06.462"
+			timeWallClock="09:11:22"
+			time="00:06.462"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PointsGrid.Add' at 40;30.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Points: Grid']/button[@text='Add']"
+				itempath="button[@text='Add']"
+				fullname="VCRanorexTestRepository.PointsGrid.Add"
+				id="ad163cf970e74ee294110c00b1c37968"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddPoints.cs"
+				codeline="98"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.012"
+			timeRelativeToTestModuleStartTime="00:07.012"
+			timeWallClock="09:11:23"
+			time="00:07.012"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'AddPoint.Text20655' at 112;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Point']/?/?/text[@controlid='20655']"
+				itempath="?/?/text[@controlid='20655']"
+				fullname="VCRanorexTestRepository.AddPoint.Text20655"
+				id="353afd096c9646a2bbc879f3be697044"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddPoints.cs"
+				codeline="102"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.824"
+			timeRelativeToTestModuleStartTime="00:13.824"
+			timeWallClock="09:11:29"
+			time="00:13.824"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

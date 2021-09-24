@@ -69,16 +69,6 @@ HmoqTJlRZo9zKOovMrpqW5UcbYkAAAAASUVORK5CYII=
 		searchtimeout="30000ms"
 		usecache="False">
 			<item
-			addcaps="cell"
-			capname="cell"
-			id="2de5a6ba-e337-4c0c-821e-fcf5db649533"
-			name="VersionControlTest"
-			refimgid="50cadc61-5440-4c27-9db2-5dbb126e1d0b"
-			refpath="/form[@title='Open Job']/table/row[@index='0']/cell[@text='VersionControlTest']"
-			searchtimeout="30000ms">
-				/form[@title='Open Job']/?/?/row[@index='0']/cell[@text='VersionControlTest']
-			</item>
-			<item
 			addcaps="button,nativewindow"
 			capname="button"
 			id="476760b8-01a3-44c8-bfdb-167d4d222b88"
@@ -97,6 +87,16 @@ HmoqTJlRZo9zKOovMrpqW5UcbYkAAAAASUVORK5CYII=
 			refpath="/form[@title='Open Job']/table/row[@index='0']/cell[@text='Default']"
 			searchtimeout="30000ms">
 				/form[@title='Open Job']/?/?/row[@index='0']/cell[@text='Default']
+			</item>
+			<item
+			addcaps="cell"
+			capname="cell"
+			id="a0922efd-d312-4fac-b453-a6a074c4e71f"
+			name="VersionControlTest"
+			refimgid="3e0da356-96a7-4706-8e76-020bea15a2e4"
+			refpath="/form[@title='Open Job']/table/row[@index='0']/cell[@text='VersionControlTest']"
+			searchtimeout="30000ms">
+				/form[@title='Open Job']/?/?/row[@index='0']/cell[@text='VersionControlTest']
 			</item>
 			<basepath>
 				/form[@title='Open Job']
@@ -177,16 +177,6 @@ HmoqTJlRZo9zKOovMrpqW5UcbYkAAAAASUVORK5CYII=
 			<item
 			addcaps="button,nativewindow"
 			capname="button"
-			id="d88a60dc-79e8-4e63-be51-2f15395b1707"
-			name="Add"
-			refimgid="b25f5818-d45e-4731-9596-0799429c307b"
-			refpath="/form[@title='Points: Grid']/button[@text='Add']"
-			searchtimeout="30000ms">
-				/form[@title='Points: Grid']/button[@text='Add']
-			</item>
-			<item
-			addcaps="button,nativewindow"
-			capname="button"
 			id="6a90e17b-27b0-4bac-9d11-e74742c633b3"
 			name="Home"
 			refimgid="8b79c261-7964-4331-97d9-af4a97134032"
@@ -224,6 +214,16 @@ HmoqTJlRZo9zKOovMrpqW5UcbYkAAAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/form[@title='Points: Grid']/button[@text='Delete']
 			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="ad163cf9-70e7-4ee2-9411-0c00b1c37968"
+			name="Add"
+			refimgid="4f6435d9-0688-43ad-ab8a-acd6f7d38601"
+			refpath="/form[@title='Points: Grid']/button[@text='Add']"
+			searchtimeout="30000ms">
+				/form[@title='Points: Grid']/button[@text='Add']
+			</item>
 			<basepath>
 				/form[@title='Points: Grid']
 			</basepath>
@@ -256,7 +256,7 @@ YII=
 			addcaps="text,nativewindow"
 			capname="text"
 			id="fcc7bbe6-cef2-4aad-8bcd-bbd030d12b5b"
-			name="Text20910"
+			name="PointName"
 			refimgid="33c21556-342b-4a48-a049-ee17812f2b68"
 			refpath="/form[@title='Add Point']/container/text[@controlid='20910']"
 			searchtimeout="30000ms">
@@ -266,7 +266,7 @@ YII=
 			addcaps="button,nativewindow"
 			capname="button"
 			id="622e5c67-d3d0-4534-b80d-1c5e9c902fcf"
-			name="Button"
+			name="AcceptChanges"
 			refimgid="e07ab8c8-806d-413c-8b05-f313454d84b4"
 			refpath="/form[@title='Add Point']/button[@text='' and @controlid='1']"
 			searchtimeout="30000ms">
@@ -276,7 +276,7 @@ YII=
 			addcaps="text,nativewindow"
 			capname="text"
 			id="353afd09-6c96-46a2-bbc8-79f3be697044"
-			name="Text20655"
+			name="NorthValue"
 			refimgid="538a2075-0098-4582-98ab-545e53eb5427"
 			refpath="/form[@title='Add Point']/container/text[@controlid='20655']"
 			searchtimeout="30000ms">
@@ -286,7 +286,7 @@ YII=
 			addcaps="text,nativewindow"
 			capname="text"
 			id="1954a794-ef0d-4566-a66d-f2bf3683dc4b"
-			name="Text20837"
+			name="EastValue"
 			refimgid="2f15890f-9b01-4180-91e4-750da47cb8f9"
 			refpath="/form[@title='Add Point']/container/text[@controlid='20837']"
 			searchtimeout="30000ms">
@@ -296,7 +296,7 @@ YII=
 			addcaps="text,nativewindow"
 			capname="text"
 			id="2ccac77b-5ef5-4e4f-a6b8-8868f8492680"
-			name="Text20726"
+			name="EllipsoidalHt"
 			refimgid="9a93e6ad-c76d-4a91-8196-24d49d1570ad"
 			refpath="/form[@title='Add Point']/container/text[@controlid='20726']"
 			searchtimeout="30000ms">
@@ -412,7 +412,7 @@ YII=
 			addcaps="button,nativewindow"
 			capname="button"
 			id="3e667ab1-efb3-47c7-b0f0-baa651d62add"
-			name="Button"
+			name="AcceptChanges"
 			refimgid="e121ecb0-05b2-4b2b-b18b-f4d75d953d3c"
 			refpath="/form[@title='Add Line']/button[@text='' and @controlid='1']"
 			searchtimeout="30000ms">
@@ -527,7 +527,7 @@ DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
 			addcaps="button,nativewindow"
 			capname="button"
 			id="57a90b69-bcba-487f-a111-d4a7e27a4c1d"
-			name="Button"
+			name="ExpandCollapseToolbar"
 			refimgid="1511aea8-3fab-4be6-8702-3753fb6aa7bd"
 			refpath="/form[@title='Map']/element/element[@class='AfxSimpleTpsToolbar' and @instance='1']/button[@text='' and @controlid='1000']"
 			searchtimeout="30000ms">
@@ -537,7 +537,7 @@ DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
 			addcaps="button,nativewindow"
 			capname="button"
 			id="7a3f72c3-177e-40a9-a9a9-26870119d670"
-			name="Button1"
+			name="ZoomAll"
 			refimgid="92f92375-ad4b-48b7-a526-51e93f27d902"
 			refpath="/form[@title='Map']/element/element[@class='AfxSimpleTpsToolbar' and @instance='1']/button[@text='' and @controlid='1005']"
 			searchtimeout="30000ms">
@@ -547,7 +547,7 @@ DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
 			addcaps="unknown,nativewindow"
 			capname="unknown"
 			id="a307619d-1a0a-42e5-b9c7-20cf9dea5aeb"
-			name="Element20063"
+			name="MapPoint"
 			refimgid="ff30594a-6ff3-42b8-bd7b-abce4a9939f3"
 			refpath="/form[@title='Map']/element[@controlid='20063']"
 			searchtimeout="30000ms">
@@ -557,7 +557,7 @@ DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
 			addcaps="button,nativewindow"
 			capname="button"
 			id="1daeecd1-5b43-434a-94c8-180b74fec4c6"
-			name="Button2"
+			name="AcceptChanges"
 			refimgid="447f01de-b284-41a2-915f-5bd6dee2e22a"
 			refpath="/form[@title='Map']/button[@text='' and @controlid='1']"
 			searchtimeout="30000ms">

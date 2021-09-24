@@ -87,8 +87,8 @@ namespace VCRanorexTest.Recordings
             repo.VersionControlTest.SecondaryMenuSelection.Click("598;138");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Linework.Add' at 51;24.", repo.Linework.AddInfo, new RecordItemIndex(2));
-            repo.Linework.Add.Click("51;24");
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Press() on item 'Linework.Add'.", repo.Linework.AddInfo, new RecordItemIndex(2));
+            repo.Linework.Add.Press();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddLine.AddPoints' at 143;34.", repo.AddLine.AddPointsInfo, new RecordItemIndex(3));
@@ -99,35 +99,41 @@ namespace VCRanorexTest.Recordings
             repo.ContextMenuMf.MenuItem.Click("127;22");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormMap.Button' at 37;30.", repo.FormMap.ButtonInfo, new RecordItemIndex(5));
-            repo.FormMap.Button.Click("37;30");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormMap.ExpandCollapseToolbar' at 37;30.", repo.FormMap.ExpandCollapseToolbarInfo, new RecordItemIndex(5));
+            repo.FormMap.ExpandCollapseToolbar.Click("37;30");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormMap.Button1' at 32;24.", repo.FormMap.Button1Info, new RecordItemIndex(6));
-            repo.FormMap.Button1.Click("32;24");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormMap.ZoomAll' at 32;24.", repo.FormMap.ZoomAllInfo, new RecordItemIndex(6));
+            repo.FormMap.ZoomAll.Click("32;24");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormMap.Button' at 34;26.", repo.FormMap.ButtonInfo, new RecordItemIndex(7));
-            repo.FormMap.Button.Click("34;26");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormMap.ExpandCollapseToolbar' at 34;26.", repo.FormMap.ExpandCollapseToolbarInfo, new RecordItemIndex(7));
+            repo.FormMap.ExpandCollapseToolbar.Click("34;26");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormMap.Element20063' at 259;541.", repo.FormMap.Element20063Info, new RecordItemIndex(8));
-            repo.FormMap.Element20063.Click("259;541");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormMap.MapPoint' at 259;541.", repo.FormMap.MapPointInfo, new RecordItemIndex(8));
+            repo.FormMap.MapPoint.Click("259;541");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormMap.Element20063' at 260;99.", repo.FormMap.Element20063Info, new RecordItemIndex(9));
-            repo.FormMap.Element20063.Click("260;99");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormMap.MapPoint' at 260;99.", repo.FormMap.MapPointInfo, new RecordItemIndex(9));
+            repo.FormMap.MapPoint.Click("260;99");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormMap.Button2' at 33;29.", repo.FormMap.Button2Info, new RecordItemIndex(10));
-            repo.FormMap.Button2.Click("33;29");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormMap.AcceptChanges' at 33;29.", repo.FormMap.AcceptChangesInfo, new RecordItemIndex(10));
+            repo.FormMap.AcceptChanges.Click("33;29");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddLine.Button' at 37;29.", repo.AddLine.ButtonInfo, new RecordItemIndex(11));
-            repo.AddLine.Button.Click("37;29");
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 50ms.", new RecordItemIndex(11));
+            Delay.Duration(50, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AddLine.AcceptChanges' at 37;29.", repo.AddLine.AcceptChangesInfo, new RecordItemIndex(12));
+            repo.AddLine.AcceptChanges.Click("37;29");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Linework.Home' at 34;29.", repo.Linework.HomeInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 50ms.", new RecordItemIndex(13));
+            Delay.Duration(50, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Linework.Home' at 34;29.", repo.Linework.HomeInfo, new RecordItemIndex(14));
             repo.Linework.Home.Click("34;29");
             Delay.Milliseconds(0);
             

@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="12.76s"
+		durationms="12760"
+		type="root"
+		rid="79025a209248608"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="maylward"
+		rxversion="9.3.2.0"
+		host="OLA-17HH7X2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="9/23/2021 9:20:59 AM"
+		timestampiso="2021-09-23T14:20:59"
+		endtime="9/23/2021 9:21:12 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AddLine">
+		<detail>
+			AddLine
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.653"
+			timeRelativeToTestModuleStartTime="00:02.653"
+			timeWallClock="09:21:02"
+			time="00:02.653"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'VersionControlTest.MainMenuSelection' at 604;136.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='VersionControlTest']/element[@controlid='1000']"
+				itempath="element[@controlid='1000']"
+				fullname="VCRanorexTestRepository.VersionControlTest.MainMenuSelection"
+				id="50c54255095a48ac9dad5281197783b2"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddLine.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.744"
+			timeRelativeToTestModuleStartTime="00:04.744"
+			timeWallClock="09:21:04"
+			time="00:04.744"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'VersionControlTest.SecondaryMenuSelection' at 598;138.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='VersionControlTest']/?/?/element[@controlid='1000']"
+				itempath="?/?/element[@controlid='1000']"
+				fullname="VCRanorexTestRepository.VersionControlTest.SecondaryMenuSelection"
+				id="93d152f9addd425ca893be8132837400"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddLine.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.326"
+			timeRelativeToTestModuleStartTime="00:05.326"
+			timeWallClock="09:21:04"
+			time="00:05.326"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Press() on item 'Linework.Add'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Linework']/button[@text='Add']"
+				itempath="button[@text='Add']"
+				fullname="VCRanorexTestRepository.Linework.Add"
+				id="4e69ba4b9ea84e998ae54b6d7c62cc64"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddLine.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.702"
+			timeRelativeToTestModuleStartTime="00:06.702"
+			timeWallClock="09:21:06"
+			time="00:06.702"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AddLine.AddPoints' at 143;34.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Line']/?/?/button[@text='Add Points']"
+				itempath="?/?/button[@text='Add Points']"
+				fullname="VCRanorexTestRepository.AddLine.AddPoints"
+				id="68eac7c0b5e34033b3ba2f92d60ab3d2"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddLine.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.277"
+			timeRelativeToTestModuleStartTime="00:07.277"
+			timeWallClock="09:21:06"
+			time="00:07.277"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ContextMenuMf.MenuItem' at 127;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='mf']/contextmenu/menuitem[9]"
+				itempath="contextmenu/menuitem[9]"
+				fullname="VCRanorexTestRepository.ContextMenuMf.MenuItem"
+				id="7ad5a905ccad4a48a97d048bbff91c05"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddLine.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.008"
+			timeRelativeToTestModuleStartTime="00:08.008"
+			timeWallClock="09:21:07"
+			time="00:08.008"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FormMap.ExpandCollapseToolbar' at 37;30.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Map']/element[@controlid='20063']/?/?/button[@controlid='1000']"
+				itempath="element[@controlid='20063']/?/?/button[@controlid='1000']"
+				fullname="VCRanorexTestRepository.FormMap.ExpandCollapseToolbar"
+				id="57a90b69bcba487fa111d4a7e27a4c1d"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddLine.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.793"
+			timeRelativeToTestModuleStartTime="00:08.793"
+			timeWallClock="09:21:08"
+			time="00:08.793"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FormMap.ZoomAll' at 32;24.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Map']/element[@controlid='20063']/?/?/button[@controlid='1005']"
+				itempath="element[@controlid='20063']/?/?/button[@controlid='1005']"
+				fullname="VCRanorexTestRepository.FormMap.ZoomAll"
+				id="7a3f72c3177e40a9a9a926870119d670"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddLine.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.395"
+			timeRelativeToTestModuleStartTime="00:09.395"
+			timeWallClock="09:21:08"
+			time="00:09.395"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FormMap.ExpandCollapseToolbar' at 34;26.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Map']/element[@controlid='20063']/?/?/button[@controlid='1000']"
+				itempath="element[@controlid='20063']/?/?/button[@controlid='1000']"
+				fullname="VCRanorexTestRepository.FormMap.ExpandCollapseToolbar"
+				id="57a90b69bcba487fa111d4a7e27a4c1d"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddLine.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.009"
+			timeRelativeToTestModuleStartTime="00:10.009"
+			timeWallClock="09:21:09"
+			time="00:10.009"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FormMap.MapPoint' at 259;541.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Map']/element[@controlid='20063']"
+				itempath="element[@controlid='20063']"
+				fullname="VCRanorexTestRepository.FormMap.MapPoint"
+				id="a307619d1a0a42e5b9c720cf9dea5aeb"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddLine.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.558"
+			timeRelativeToTestModuleStartTime="00:10.558"
+			timeWallClock="09:21:10"
+			time="00:10.558"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FormMap.MapPoint' at 260;99.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Map']/element[@controlid='20063']"
+				itempath="element[@controlid='20063']"
+				fullname="VCRanorexTestRepository.FormMap.MapPoint"
+				id="a307619d1a0a42e5b9c720cf9dea5aeb"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddLine.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.095"
+			timeRelativeToTestModuleStartTime="00:11.095"
+			timeWallClock="09:21:10"
+			time="00:11.095"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FormMap.AcceptChanges' at 33;29.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Map']/button[@controlid='1']"
+				itempath="button[@controlid='1']"
+				fullname="VCRanorexTestRepository.FormMap.AcceptChanges"
+				id="1daeecd15b43434a94c8180b74fec4c6"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddLine.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.643"
+			timeRelativeToTestModuleStartTime="00:11.643"
+			timeWallClock="09:21:11"
+			time="00:11.643"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AddLine.AcceptChanges' at 37;29.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Line']/button[@text='' and @controlid='1']"
+				itempath="button[@text='' and @controlid='1']"
+				fullname="VCRanorexTestRepository.AddLine.AcceptChanges"
+				id="3e667ab1efb347c7b0f0baa651d62add"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddLine.cs"
+				codeline="126"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.210"
+			timeRelativeToTestModuleStartTime="00:12.210"
+			timeWallClock="09:21:11"
+			time="00:12.210"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Linework.Home' at 34;29.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Linework']/button[@controlid='41829']"
+				itempath="button[@controlid='41829']"
+				fullname="VCRanorexTestRepository.Linework.Home"
+				id="86bb4abab4824f22897c9f5a9b366117"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddLine.cs"
+				codeline="130"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -94,8 +94,8 @@ namespace VCRanorexTest.Recordings
             repo.Default.SecondaryMenuSelection.Click("262;141");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OpenJob.VersionControlTest' at 96;25.", repo.OpenJob.VersionControlTestInfo, new RecordItemIndex(4));
-            repo.OpenJob.VersionControlTest.Click("96;25");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OpenJob.VersionControlTest' at 120;25.", repo.OpenJob.VersionControlTestInfo, new RecordItemIndex(4));
+            repo.OpenJob.VersionControlTest.Click("120;25");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OpenJob.AcceptChanges' at 32;30.", repo.OpenJob.AcceptChangesInfo, new RecordItemIndex(5));

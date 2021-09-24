@@ -85,8 +85,8 @@ namespace VCRanorexTest.Recordings
             // Force close job from any window
             Report.Log(ReportLevel.Info, "Section", "Force close job from any window", new RecordItemIndex(1));
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(2));
-            Delay.Duration(2000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(2));
+            Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'VersionControlTest'.", repo.VersionControlTest.SelfInfo, new RecordItemIndex(3));
             Host.Current.CloseApplication(repo.VersionControlTest.Self, new Duration(0));

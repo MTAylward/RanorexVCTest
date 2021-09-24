@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="67852"
+		type="root"
+		rid="7b05e1df30eee75"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="maylward"
+		rxversion="9.3.2.0"
+		host="OLA-17HH7X2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="9/23/2021 9:03:37 AM"
+		timestampiso="2021-09-23T14:03:37"
+		endtime="9/23/2021 9:04:45 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AddPoints">
+		<detail>
+			AddPoints
+		</detail>
+		<errormessage>
+			Failed to find item 'VCRanorexTestRepository.AddPoint.Text20655'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.637"
+			timeRelativeToTestModuleStartTime="00:02.637"
+			timeWallClock="09:03:40"
+			time="00:02.637"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'VersionControlTest.MainMenuSelection' at 603;146.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='VersionControlTest']/element[@controlid='1000']"
+				itempath="element[@controlid='1000']"
+				fullname="VCRanorexTestRepository.VersionControlTest.MainMenuSelection"
+				id="50c54255095a48ac9dad5281197783b2"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddPoints.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.003"
+			timeRelativeToTestModuleStartTime="00:04.003"
+			timeWallClock="09:03:41"
+			time="00:04.003"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'VersionControlTest.SecondaryMenuSelection' at 95;144.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='VersionControlTest']/?/?/element[@controlid='1000']"
+				itempath="?/?/element[@controlid='1000']"
+				fullname="VCRanorexTestRepository.VersionControlTest.SecondaryMenuSelection"
+				id="93d152f9addd425ca893be8132837400"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddPoints.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.583"
+			timeRelativeToTestModuleStartTime="00:04.583"
+			timeWallClock="09:03:42"
+			time="00:04.583"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PointsGrid.Add' at 47;31.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Points: Grid']/button[@text='Add']"
+				itempath="button[@text='Add']"
+				fullname="VCRanorexTestRepository.PointsGrid.Add"
+				id="d88a60dc79e84e63be512f15395b1707"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddPoints.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.333"
+			timeRelativeToTestModuleStartTime="00:05.333"
+			timeWallClock="09:03:43"
+			time="00:05.333"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'AddPoint.Text20910' at 203;27.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Point']/?/?/text[@controlid='20910']"
+				itempath="?/?/text[@controlid='20910']"
+				fullname="VCRanorexTestRepository.AddPoint.Text20910"
+				id="fcc7bbe6cef24aad8bcdbbd030d12b5b"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddPoints.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.219"
+			timeRelativeToTestModuleStartTime="00:06.219"
+			timeWallClock="09:03:44"
+			time="00:06.219"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '1' with focus on 'AddPoint.Text20910'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Point']/?/?/text[@controlid='20910']"
+				itempath="?/?/text[@controlid='20910']"
+				fullname="VCRanorexTestRepository.AddPoint.Text20910"
+				id="fcc7bbe6cef24aad8bcdbbd030d12b5b"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddPoints.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.476"
+			timeRelativeToTestModuleStartTime="00:06.476"
+			timeWallClock="09:03:44"
+			time="00:06.476"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AddPoint.Button' at 33;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Point']/button[@text='' and @controlid='1']"
+				itempath="button[@text='' and @controlid='1']"
+				fullname="VCRanorexTestRepository.AddPoint.Button"
+				id="622e5c67d3d04534b80d1c5e9c902fcf"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddPoints.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.998"
+			timeRelativeToTestModuleStartTime="00:06.998"
+			timeWallClock="09:03:44"
+			time="00:06.998"
+			level="Info"
+			category="Mouse"
+			errimg="images_AddPoint_773f4270\AddPoint_773f4270_fb663dab_trace.jpg"
+			errthumb="images_AddPoint_773f4270\AddPoint_773f4270_fb663dab_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'PointsGrid.Add' at 40;30.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Points: Grid']/button[@text='Add']"
+				itempath="button[@text='Add']"
+				fullname="VCRanorexTestRepository.PointsGrid.Add"
+				id="d88a60dc79e84e63be512f15395b1707"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddPoints.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.551"
+			timeRelativeToTestModuleStartTime="00:07.551"
+			timeWallClock="09:03:45"
+			time="00:07.551"
+			level="Info"
+			category="Mouse"
+			errimg="images_AddPoint_773f4270\AddPoint_773f4270_c2b5c615_trace.jpg"
+			errthumb="images_AddPoint_773f4270\AddPoint_773f4270_c2b5c615_trace_thumb.jpg">
+			<message>
+				Mouse Left DoubleClick item 'AddPoint.Text20655' at 112;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Add Point']/?/?/text[@controlid='20655']"
+				itempath="?/?/text[@controlid='20655']"
+				fullname="VCRanorexTestRepository.AddPoint.Text20655"
+				id="353afd096c9646a2bbc879f3be697044"
+				timeout="60000"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddPoints.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:07.762"
+			timeRelativeToTestModuleStartTime="01:07.762"
+			timeWallClock="09:04:45"
+			time="01:07.762"
+			level="Error"
+			category="Module"
+			errimg="images_AddPoint_773f4270\AddPoint_773f4270_aee890ee_trace.jpg"
+			errthumb="images_AddPoint_773f4270\AddPoint_773f4270_aee890ee_trace_thumb.jpg">
+			<message>
+				Failed to find item 'VCRanorexTestRepository.AddPoint.Text20655'.<br/>No element found for path '/form[@title='Add Point']/?/?/text[@controlid='20655']' at step 'form[@title='Add Point']' after 302 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at VCRanorexTest.VCRanorexTestRepositoryFolders.AddPointAppFolder.get_Text20655() in c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\VCRanorexTestRepository.cs:line 769&#13;&#10;   at VCRanorexTest.Recordings.AddPoints.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddPoints.cs:line 111&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\maylward\Desktop\VC Files\VCRanorexTest\VCRanorexTest\Recordings\AddPoints.cs"
+				codeline="111"
+				type="repoitem"
+				path="/form[@title='Add Point']/?/?/text[@controlid='20655']"
+				itempath="?/?/text[@controlid='20655']"
+				fullname="VCRanorexTestRepository.AddPoint.Text20655"
+				id="353afd096c9646a2bbc879f3be697044"
+				timeout="60000"
+				failedStep="form[@title='Add Point']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="7">
+			</metainfo>
+		</item>
+	</activity>
+</report>

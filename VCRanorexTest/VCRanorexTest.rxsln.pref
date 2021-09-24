@@ -5,7 +5,11 @@
   <Array name="bookmarks" />
   <Array name="files" />
   <SerializedValue name="ModuleBrowserState">
-    <ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+    <ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <string>{AE28D51C-649C-49B6-91C5-620F5534E10C}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>80a788b3-d53b-45b4-a8be-ec71eeb9aa04</string>
+    </ArrayOfString>
   </SerializedValue>
   <ProjectBrowserState value="[Solution VCRanorexTest[VCRanorexTest[Recordings[]VCRanorexTestRepository.rxrep[]]]]&#xD;&#xA;Solution VCRanorexTest\VCRanorexTest\VCRanorexTest.rxtst&#xD;&#xA;Solution VCRanorexTest\VCRanorexTest\bin" />
   <StartupProject value="{AE28D51C-649C-49B6-91C5-620F5534E10C}" />

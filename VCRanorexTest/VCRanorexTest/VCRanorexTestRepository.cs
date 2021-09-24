@@ -287,9 +287,9 @@ namespace VCRanorexTest
         [RepositoryFolder("873f73f3-5589-4dc4-b99b-ca937e7d5b6a")]
         public partial class OpenJobAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _versioncontroltestInfo;
             RepoItemInfo _acceptchangesInfo;
             RepoItemInfo _defaultInfo;
+            RepoItemInfo _versioncontroltestInfo;
 
             /// <summary>
             /// Creates a new OpenJob  folder.
@@ -297,9 +297,9 @@ namespace VCRanorexTest
             public OpenJobAppFolder(RepoGenBaseFolder parentFolder) :
                     base("OpenJob", "/form[@title='Open Job']", parentFolder, 30000, null, false, "873f73f3-5589-4dc4-b99b-ca937e7d5b6a", "")
             {
-                _versioncontroltestInfo = new RepoItemInfo(this, "VersionControlTest", "?/?/row[@index='0']/cell[@text='VersionControlTest']", 30000, null, "2de5a6ba-e337-4c0c-821e-fcf5db649533");
                 _acceptchangesInfo = new RepoItemInfo(this, "AcceptChanges", "button[@controlid='41830']", 30000, null, "476760b8-01a3-44c8-bfdb-167d4d222b88");
                 _defaultInfo = new RepoItemInfo(this, "Default", "?/?/row[@index='0']/cell[@text='Default']", 30000, null, "69a5e4a5-b68a-475b-8f37-502002548b79");
+                _versioncontroltestInfo = new RepoItemInfo(this, "VersionControlTest", "?/?/row[@index='0']/cell[@text='VersionControlTest']", 30000, null, "a0922efd-d312-4fac-b453-a6a074c4e71f");
             }
 
             /// <summary>
@@ -323,30 +323,6 @@ namespace VCRanorexTest
                 get
                 {
                     return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The VersionControlTest item.
-            /// </summary>
-            [RepositoryItem("2de5a6ba-e337-4c0c-821e-fcf5db649533")]
-            public virtual Ranorex.Cell VersionControlTest
-            {
-                get
-                {
-                    return _versioncontroltestInfo.CreateAdapter<Ranorex.Cell>(true);
-                }
-            }
-
-            /// <summary>
-            /// The VersionControlTest item info.
-            /// </summary>
-            [RepositoryItemInfo("2de5a6ba-e337-4c0c-821e-fcf5db649533")]
-            public virtual RepoItemInfo VersionControlTestInfo
-            {
-                get
-                {
-                    return _versioncontroltestInfo;
                 }
             }
 
@@ -395,6 +371,30 @@ namespace VCRanorexTest
                 get
                 {
                     return _defaultInfo;
+                }
+            }
+
+            /// <summary>
+            /// The VersionControlTest item.
+            /// </summary>
+            [RepositoryItem("a0922efd-d312-4fac-b453-a6a074c4e71f")]
+            public virtual Ranorex.Cell VersionControlTest
+            {
+                get
+                {
+                    return _versioncontroltestInfo.CreateAdapter<Ranorex.Cell>(true);
+                }
+            }
+
+            /// <summary>
+            /// The VersionControlTest item info.
+            /// </summary>
+            [RepositoryItemInfo("a0922efd-d312-4fac-b453-a6a074c4e71f")]
+            public virtual RepoItemInfo VersionControlTestInfo
+            {
+                get
+                {
+                    return _versioncontroltestInfo;
                 }
             }
         }
@@ -497,11 +497,11 @@ namespace VCRanorexTest
         [RepositoryFolder("b257fe91-987a-49ca-b25c-d2a85a2b1c69")]
         public partial class PointsGridAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _addInfo;
             RepoItemInfo _homeInfo;
             RepoItemInfo _cell1Info;
             RepoItemInfo _cell5Info;
             RepoItemInfo _deleteInfo;
+            RepoItemInfo _addInfo;
 
             /// <summary>
             /// Creates a new PointsGrid  folder.
@@ -509,11 +509,11 @@ namespace VCRanorexTest
             public PointsGridAppFolder(RepoGenBaseFolder parentFolder) :
                     base("PointsGrid", "/form[@title='Points: Grid']", parentFolder, 30000, null, false, "b257fe91-987a-49ca-b25c-d2a85a2b1c69", "")
             {
-                _addInfo = new RepoItemInfo(this, "Add", "button[@text='Add']", 30000, null, "d88a60dc-79e8-4e63-be51-2f15395b1707");
                 _homeInfo = new RepoItemInfo(this, "Home", "button[@controlid='41829']", 30000, null, "6a90e17b-27b0-4bac-9d11-e74742c633b3");
                 _cell1Info = new RepoItemInfo(this, "Cell1", "?/?/row[@index='0']/cell[@text='1']", 30000, null, "d35d66ed-62a3-456f-a63a-e8cd0dd1fbf6");
                 _cell5Info = new RepoItemInfo(this, "Cell5", "?/?/row[@index='4']/cell[@text='5']", 30000, null, "7dc21d57-e87a-4ca8-ad44-8b35e876158c");
                 _deleteInfo = new RepoItemInfo(this, "Delete", "button[@text='Delete']", 30000, null, "6cdc4fa7-19bf-4d97-829c-ab733b405e81");
+                _addInfo = new RepoItemInfo(this, "Add", "button[@text='Add']", 30000, null, "ad163cf9-70e7-4ee2-9411-0c00b1c37968");
             }
 
             /// <summary>
@@ -537,30 +537,6 @@ namespace VCRanorexTest
                 get
                 {
                     return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Add item.
-            /// </summary>
-            [RepositoryItem("d88a60dc-79e8-4e63-be51-2f15395b1707")]
-            public virtual Ranorex.Button Add
-            {
-                get
-                {
-                    return _addInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Add item info.
-            /// </summary>
-            [RepositoryItemInfo("d88a60dc-79e8-4e63-be51-2f15395b1707")]
-            public virtual RepoItemInfo AddInfo
-            {
-                get
-                {
-                    return _addInfo;
                 }
             }
 
@@ -659,6 +635,30 @@ namespace VCRanorexTest
                     return _deleteInfo;
                 }
             }
+
+            /// <summary>
+            /// The Add item.
+            /// </summary>
+            [RepositoryItem("ad163cf9-70e7-4ee2-9411-0c00b1c37968")]
+            public virtual Ranorex.Button Add
+            {
+                get
+                {
+                    return _addInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Add item info.
+            /// </summary>
+            [RepositoryItemInfo("ad163cf9-70e7-4ee2-9411-0c00b1c37968")]
+            public virtual RepoItemInfo AddInfo
+            {
+                get
+                {
+                    return _addInfo;
+                }
+            }
         }
 
         /// <summary>
@@ -667,11 +667,11 @@ namespace VCRanorexTest
         [RepositoryFolder("543e146e-6fb7-4b57-ba7c-2cec0034b4a9")]
         public partial class AddPointAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _text20910Info;
-            RepoItemInfo _buttonInfo;
-            RepoItemInfo _text20655Info;
-            RepoItemInfo _text20837Info;
-            RepoItemInfo _text20726Info;
+            RepoItemInfo _pointnameInfo;
+            RepoItemInfo _acceptchangesInfo;
+            RepoItemInfo _northvalueInfo;
+            RepoItemInfo _eastvalueInfo;
+            RepoItemInfo _ellipsoidalhtInfo;
 
             /// <summary>
             /// Creates a new AddPoint  folder.
@@ -679,11 +679,11 @@ namespace VCRanorexTest
             public AddPointAppFolder(RepoGenBaseFolder parentFolder) :
                     base("AddPoint", "/form[@title='Add Point']", parentFolder, 30000, null, false, "543e146e-6fb7-4b57-ba7c-2cec0034b4a9", "")
             {
-                _text20910Info = new RepoItemInfo(this, "Text20910", "?/?/text[@controlid='20910']", 30000, null, "fcc7bbe6-cef2-4aad-8bcd-bbd030d12b5b");
-                _buttonInfo = new RepoItemInfo(this, "Button", "button[@text='' and @controlid='1']", 30000, null, "622e5c67-d3d0-4534-b80d-1c5e9c902fcf");
-                _text20655Info = new RepoItemInfo(this, "Text20655", "?/?/text[@controlid='20655']", 30000, null, "353afd09-6c96-46a2-bbc8-79f3be697044");
-                _text20837Info = new RepoItemInfo(this, "Text20837", "?/?/text[@controlid='20837']", 30000, null, "1954a794-ef0d-4566-a66d-f2bf3683dc4b");
-                _text20726Info = new RepoItemInfo(this, "Text20726", "?/?/text[@controlid='20726']", 30000, null, "2ccac77b-5ef5-4e4f-a6b8-8868f8492680");
+                _pointnameInfo = new RepoItemInfo(this, "PointName", "?/?/text[@controlid='20910']", 30000, null, "fcc7bbe6-cef2-4aad-8bcd-bbd030d12b5b");
+                _acceptchangesInfo = new RepoItemInfo(this, "AcceptChanges", "button[@text='' and @controlid='1']", 30000, null, "622e5c67-d3d0-4534-b80d-1c5e9c902fcf");
+                _northvalueInfo = new RepoItemInfo(this, "NorthValue", "?/?/text[@controlid='20655']", 30000, null, "353afd09-6c96-46a2-bbc8-79f3be697044");
+                _eastvalueInfo = new RepoItemInfo(this, "EastValue", "?/?/text[@controlid='20837']", 30000, null, "1954a794-ef0d-4566-a66d-f2bf3683dc4b");
+                _ellipsoidalhtInfo = new RepoItemInfo(this, "EllipsoidalHt", "?/?/text[@controlid='20726']", 30000, null, "2ccac77b-5ef5-4e4f-a6b8-8868f8492680");
             }
 
             /// <summary>
@@ -711,122 +711,122 @@ namespace VCRanorexTest
             }
 
             /// <summary>
-            /// The Text20910 item.
+            /// The PointName item.
             /// </summary>
             [RepositoryItem("fcc7bbe6-cef2-4aad-8bcd-bbd030d12b5b")]
-            public virtual Ranorex.Text Text20910
+            public virtual Ranorex.Text PointName
             {
                 get
                 {
-                    return _text20910Info.CreateAdapter<Ranorex.Text>(true);
+                    return _pointnameInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
             /// <summary>
-            /// The Text20910 item info.
+            /// The PointName item info.
             /// </summary>
             [RepositoryItemInfo("fcc7bbe6-cef2-4aad-8bcd-bbd030d12b5b")]
-            public virtual RepoItemInfo Text20910Info
+            public virtual RepoItemInfo PointNameInfo
             {
                 get
                 {
-                    return _text20910Info;
+                    return _pointnameInfo;
                 }
             }
 
             /// <summary>
-            /// The Button item.
+            /// The AcceptChanges item.
             /// </summary>
             [RepositoryItem("622e5c67-d3d0-4534-b80d-1c5e9c902fcf")]
-            public virtual Ranorex.Button Button
+            public virtual Ranorex.Button AcceptChanges
             {
                 get
                 {
-                    return _buttonInfo.CreateAdapter<Ranorex.Button>(true);
+                    return _acceptchangesInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
             /// <summary>
-            /// The Button item info.
+            /// The AcceptChanges item info.
             /// </summary>
             [RepositoryItemInfo("622e5c67-d3d0-4534-b80d-1c5e9c902fcf")]
-            public virtual RepoItemInfo ButtonInfo
+            public virtual RepoItemInfo AcceptChangesInfo
             {
                 get
                 {
-                    return _buttonInfo;
+                    return _acceptchangesInfo;
                 }
             }
 
             /// <summary>
-            /// The Text20655 item.
+            /// The NorthValue item.
             /// </summary>
             [RepositoryItem("353afd09-6c96-46a2-bbc8-79f3be697044")]
-            public virtual Ranorex.Text Text20655
+            public virtual Ranorex.Text NorthValue
             {
                 get
                 {
-                    return _text20655Info.CreateAdapter<Ranorex.Text>(true);
+                    return _northvalueInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
             /// <summary>
-            /// The Text20655 item info.
+            /// The NorthValue item info.
             /// </summary>
             [RepositoryItemInfo("353afd09-6c96-46a2-bbc8-79f3be697044")]
-            public virtual RepoItemInfo Text20655Info
+            public virtual RepoItemInfo NorthValueInfo
             {
                 get
                 {
-                    return _text20655Info;
+                    return _northvalueInfo;
                 }
             }
 
             /// <summary>
-            /// The Text20837 item.
+            /// The EastValue item.
             /// </summary>
             [RepositoryItem("1954a794-ef0d-4566-a66d-f2bf3683dc4b")]
-            public virtual Ranorex.Text Text20837
+            public virtual Ranorex.Text EastValue
             {
                 get
                 {
-                    return _text20837Info.CreateAdapter<Ranorex.Text>(true);
+                    return _eastvalueInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
             /// <summary>
-            /// The Text20837 item info.
+            /// The EastValue item info.
             /// </summary>
             [RepositoryItemInfo("1954a794-ef0d-4566-a66d-f2bf3683dc4b")]
-            public virtual RepoItemInfo Text20837Info
+            public virtual RepoItemInfo EastValueInfo
             {
                 get
                 {
-                    return _text20837Info;
+                    return _eastvalueInfo;
                 }
             }
 
             /// <summary>
-            /// The Text20726 item.
+            /// The EllipsoidalHt item.
             /// </summary>
             [RepositoryItem("2ccac77b-5ef5-4e4f-a6b8-8868f8492680")]
-            public virtual Ranorex.Text Text20726
+            public virtual Ranorex.Text EllipsoidalHt
             {
                 get
                 {
-                    return _text20726Info.CreateAdapter<Ranorex.Text>(true);
+                    return _ellipsoidalhtInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
             /// <summary>
-            /// The Text20726 item info.
+            /// The EllipsoidalHt item info.
             /// </summary>
             [RepositoryItemInfo("2ccac77b-5ef5-4e4f-a6b8-8868f8492680")]
-            public virtual RepoItemInfo Text20726Info
+            public virtual RepoItemInfo EllipsoidalHtInfo
             {
                 get
                 {
-                    return _text20726Info;
+                    return _ellipsoidalhtInfo;
                 }
             }
         }
@@ -982,7 +982,7 @@ namespace VCRanorexTest
         public partial class AddLineAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _addpointsInfo;
-            RepoItemInfo _buttonInfo;
+            RepoItemInfo _acceptchangesInfo;
 
             /// <summary>
             /// Creates a new AddLine  folder.
@@ -991,7 +991,7 @@ namespace VCRanorexTest
                     base("AddLine", "/form[@title='Add Line']", parentFolder, 30000, null, false, "86b5c776-9ec0-4cc9-96c3-4fa1b3e86350", "")
             {
                 _addpointsInfo = new RepoItemInfo(this, "AddPoints", "?/?/button[@text='Add Points']", 30000, null, "68eac7c0-b5e3-4033-b3ba-2f92d60ab3d2");
-                _buttonInfo = new RepoItemInfo(this, "Button", "button[@text='' and @controlid='1']", 30000, null, "3e667ab1-efb3-47c7-b0f0-baa651d62add");
+                _acceptchangesInfo = new RepoItemInfo(this, "AcceptChanges", "button[@text='' and @controlid='1']", 30000, null, "3e667ab1-efb3-47c7-b0f0-baa651d62add");
             }
 
             /// <summary>
@@ -1043,26 +1043,26 @@ namespace VCRanorexTest
             }
 
             /// <summary>
-            /// The Button item.
+            /// The AcceptChanges item.
             /// </summary>
             [RepositoryItem("3e667ab1-efb3-47c7-b0f0-baa651d62add")]
-            public virtual Ranorex.Button Button
+            public virtual Ranorex.Button AcceptChanges
             {
                 get
                 {
-                    return _buttonInfo.CreateAdapter<Ranorex.Button>(true);
+                    return _acceptchangesInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
             /// <summary>
-            /// The Button item info.
+            /// The AcceptChanges item info.
             /// </summary>
             [RepositoryItemInfo("3e667ab1-efb3-47c7-b0f0-baa651d62add")]
-            public virtual RepoItemInfo ButtonInfo
+            public virtual RepoItemInfo AcceptChangesInfo
             {
                 get
                 {
-                    return _buttonInfo;
+                    return _acceptchangesInfo;
                 }
             }
         }
@@ -1139,10 +1139,10 @@ namespace VCRanorexTest
         [RepositoryFolder("860a094e-6be8-4db9-8093-25c00d189d74")]
         public partial class FormMapAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _buttonInfo;
-            RepoItemInfo _button1Info;
-            RepoItemInfo _element20063Info;
-            RepoItemInfo _button2Info;
+            RepoItemInfo _expandcollapsetoolbarInfo;
+            RepoItemInfo _zoomallInfo;
+            RepoItemInfo _mappointInfo;
+            RepoItemInfo _acceptchangesInfo;
 
             /// <summary>
             /// Creates a new FormMap  folder.
@@ -1150,10 +1150,10 @@ namespace VCRanorexTest
             public FormMapAppFolder(RepoGenBaseFolder parentFolder) :
                     base("FormMap", "/form[@title='Map']", parentFolder, 30000, null, false, "860a094e-6be8-4db9-8093-25c00d189d74", "")
             {
-                _buttonInfo = new RepoItemInfo(this, "Button", "element[@controlid='20063']/?/?/button[@controlid='1000']", 30000, null, "57a90b69-bcba-487f-a111-d4a7e27a4c1d");
-                _button1Info = new RepoItemInfo(this, "Button1", "element[@controlid='20063']/?/?/button[@controlid='1005']", 30000, null, "7a3f72c3-177e-40a9-a9a9-26870119d670");
-                _element20063Info = new RepoItemInfo(this, "Element20063", "element[@controlid='20063']", 30000, null, "a307619d-1a0a-42e5-b9c7-20cf9dea5aeb");
-                _button2Info = new RepoItemInfo(this, "Button2", "button[@controlid='1']", 30000, null, "1daeecd1-5b43-434a-94c8-180b74fec4c6");
+                _expandcollapsetoolbarInfo = new RepoItemInfo(this, "ExpandCollapseToolbar", "element[@controlid='20063']/?/?/button[@controlid='1000']", 30000, null, "57a90b69-bcba-487f-a111-d4a7e27a4c1d");
+                _zoomallInfo = new RepoItemInfo(this, "ZoomAll", "element[@controlid='20063']/?/?/button[@controlid='1005']", 30000, null, "7a3f72c3-177e-40a9-a9a9-26870119d670");
+                _mappointInfo = new RepoItemInfo(this, "MapPoint", "element[@controlid='20063']", 30000, null, "a307619d-1a0a-42e5-b9c7-20cf9dea5aeb");
+                _acceptchangesInfo = new RepoItemInfo(this, "AcceptChanges", "button[@controlid='1']", 30000, null, "1daeecd1-5b43-434a-94c8-180b74fec4c6");
             }
 
             /// <summary>
@@ -1181,98 +1181,98 @@ namespace VCRanorexTest
             }
 
             /// <summary>
-            /// The Button item.
+            /// The ExpandCollapseToolbar item.
             /// </summary>
             [RepositoryItem("57a90b69-bcba-487f-a111-d4a7e27a4c1d")]
-            public virtual Ranorex.Button Button
+            public virtual Ranorex.Button ExpandCollapseToolbar
             {
                 get
                 {
-                    return _buttonInfo.CreateAdapter<Ranorex.Button>(true);
+                    return _expandcollapsetoolbarInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
             /// <summary>
-            /// The Button item info.
+            /// The ExpandCollapseToolbar item info.
             /// </summary>
             [RepositoryItemInfo("57a90b69-bcba-487f-a111-d4a7e27a4c1d")]
-            public virtual RepoItemInfo ButtonInfo
+            public virtual RepoItemInfo ExpandCollapseToolbarInfo
             {
                 get
                 {
-                    return _buttonInfo;
+                    return _expandcollapsetoolbarInfo;
                 }
             }
 
             /// <summary>
-            /// The Button1 item.
+            /// The ZoomAll item.
             /// </summary>
             [RepositoryItem("7a3f72c3-177e-40a9-a9a9-26870119d670")]
-            public virtual Ranorex.Button Button1
+            public virtual Ranorex.Button ZoomAll
             {
                 get
                 {
-                    return _button1Info.CreateAdapter<Ranorex.Button>(true);
+                    return _zoomallInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
             /// <summary>
-            /// The Button1 item info.
+            /// The ZoomAll item info.
             /// </summary>
             [RepositoryItemInfo("7a3f72c3-177e-40a9-a9a9-26870119d670")]
-            public virtual RepoItemInfo Button1Info
+            public virtual RepoItemInfo ZoomAllInfo
             {
                 get
                 {
-                    return _button1Info;
+                    return _zoomallInfo;
                 }
             }
 
             /// <summary>
-            /// The Element20063 item.
+            /// The MapPoint item.
             /// </summary>
             [RepositoryItem("a307619d-1a0a-42e5-b9c7-20cf9dea5aeb")]
-            public virtual Ranorex.Unknown Element20063
+            public virtual Ranorex.Unknown MapPoint
             {
                 get
                 {
-                    return _element20063Info.CreateAdapter<Ranorex.Unknown>(true);
+                    return _mappointInfo.CreateAdapter<Ranorex.Unknown>(true);
                 }
             }
 
             /// <summary>
-            /// The Element20063 item info.
+            /// The MapPoint item info.
             /// </summary>
             [RepositoryItemInfo("a307619d-1a0a-42e5-b9c7-20cf9dea5aeb")]
-            public virtual RepoItemInfo Element20063Info
+            public virtual RepoItemInfo MapPointInfo
             {
                 get
                 {
-                    return _element20063Info;
+                    return _mappointInfo;
                 }
             }
 
             /// <summary>
-            /// The Button2 item.
+            /// The AcceptChanges item.
             /// </summary>
             [RepositoryItem("1daeecd1-5b43-434a-94c8-180b74fec4c6")]
-            public virtual Ranorex.Button Button2
+            public virtual Ranorex.Button AcceptChanges
             {
                 get
                 {
-                    return _button2Info.CreateAdapter<Ranorex.Button>(true);
+                    return _acceptchangesInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
             /// <summary>
-            /// The Button2 item info.
+            /// The AcceptChanges item info.
             /// </summary>
             [RepositoryItemInfo("1daeecd1-5b43-434a-94c8-180b74fec4c6")]
-            public virtual RepoItemInfo Button2Info
+            public virtual RepoItemInfo AcceptChangesInfo
             {
                 get
                 {
-                    return _button2Info;
+                    return _acceptchangesInfo;
                 }
             }
         }
